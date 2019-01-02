@@ -2,7 +2,7 @@
 
 $filename="takepicture.txt";
 $fop=fopen($filename,"w+");
-fwrite("1",$fop);
+fwrite($fop,"1");
 fclose($fop);
 
 echo "{\"status\":\"Ok\"}";
